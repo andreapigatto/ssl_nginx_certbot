@@ -23,11 +23,9 @@ certbot-prod:
 deploy-test:
 	@docker-compose \
 					-f docker-compose.yml \
-					-f docker-compose.prod.yml \
 					up --build --force-recreate
 
 deploy-prod:
 	@docker-compose \
 					-f docker-compose.yml \
-					-f docker-compose.prod.yml \
 					up -d --build --force-recreate

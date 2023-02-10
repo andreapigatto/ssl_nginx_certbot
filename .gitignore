@@ -2,14 +2,8 @@
 .DS_Store
 
 # IDE
-.idea/
-.vscode/
-
-# Frontend
-**/.cache/
-**/node_modules/
-**/build/
-**/dist/
+.idea
+.vscode
 
 # Webserver
-**/certbot/
+**/certbot
